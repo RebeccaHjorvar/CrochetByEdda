@@ -1,0 +1,175 @@
+/********** TAG SELECTER **********/
+body {
+  background-color: fff;
+  color: #f7d9d9;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #f7d9d9;
+  font-size: 5.625rem;
+  margin: 15% auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #dddddd;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #f7d9d9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #FFF7FE;
+  font-family: 'Monsarat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#f7d9d9
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #FFF7FE 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/********** .CLASS SELECTER **********/
+.top-container {
+  background-color: #dddddd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 30px 0 50px 0;
+}
+
+.bottom-container {
+  background-color: #dddddd;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #FFF7FE;
+  font-size:0.75rem;
+  padding: 20px 0;
+}
+
+.topPic {
+  position: absolute;
+  right: 150px;
+  top: 150px;
+}
+
+.bottomPic {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+  bottom: 300px;
+  width: 150px;
+  height: 150px;
+}
+
+.headerPic{
+  height: 200px;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.avatar{
+  height: 150px;
+  width: 150px;
+}
+
+.problemsolving-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cooking-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.iconsmadeby{
+  text-align: center;
+  font-size: 10px;
+}
+
+
+.btn {
+  background: #f7d9d9;
+
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #dddddd;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*GRID*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.4fr 0.1fr;
+  gap: 23px 89px;
+  grid-template-areas:
+    "I II III"
+    "V VI VII";
+}
+.I { grid-area: I; }
+.II { grid-area: II; }
+.III { grid-area: III; }
+.V { grid-area: V; }
+.VI { grid-area: VI; }
+.VII { grid-area: VII; }
+
+
+/********** #ID SELECTER **********/
